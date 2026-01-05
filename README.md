@@ -49,3 +49,10 @@ Before running this project, ensure you have the following installed:
    ```bash
    git clone [https://github.com/your-username/task-gov-backend.git](https://github.com/your-username/task-gov-backend.git)
    cd task-gov-backend
+
+   ## 🐳 Running with Docker
+
+To run the complete application (API + Database) using Docker, simply run:
+
+```bash
+docker-compose up --build -d
